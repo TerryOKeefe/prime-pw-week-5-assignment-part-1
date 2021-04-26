@@ -43,7 +43,7 @@ console.log('My last favroite food is:', me.favThreeFoods[me.favThreeFoods.lengt
 */
 console.log('My shoe count is:', me.shoeCount);
 
-let shoeCount = me.shoeCount += 1;
+me.shoeCount = me.shoeCount += 1;
 console.log('Just bought a new pair. New shoe count is:', me.shoeCount);
 
 /* 5. Add a new property to an existing object.
@@ -52,3 +52,6 @@ console.log('Just bought a new pair. New shoe count is:', me.shoeCount);
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+me.favoriteColor = 'Blue';
+console.log('My favorite color is:', me.favoriteColor);
+console.log(me); // console log object
