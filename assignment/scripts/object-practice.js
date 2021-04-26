@@ -14,7 +14,7 @@ const me = {
   lastName: 'O\'Keefe',
   hasSiblings: true,
   shoeCount: 40,
-  favThreeFoods: ['pizza', 'tacos', 'sushi'] 
+  favThreeFoods: ['pizza', 'tacos', 'sushi']
 };
 console.log('A little about me:', me); // console log the items placed in the object
 
@@ -24,7 +24,8 @@ console.log('A little about me:', me); // console log the items placed in the ob
     created above to set its value.
   - Console.log fullName
 */
-
+let fullName = me.firstName + ' ' + me.lastName;
+console.log(fullName);
 
 /* 3. Nested arrays
   - Console.log your first favorite food
