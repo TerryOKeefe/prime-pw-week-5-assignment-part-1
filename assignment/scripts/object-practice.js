@@ -43,6 +43,9 @@ console.log('My last favroite food is:', me.favThreeFoods[me.favThreeFoods.lengt
 */
 console.log('My shoe count is:', me.shoeCount);
 
+let shoeCount = me.shoeCount += 1;
+console.log('Just bought a new pair. New shoe count is:', me.shoeCount);
+
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
   - Do this the same way you updated the variable above
