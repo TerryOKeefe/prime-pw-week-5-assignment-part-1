@@ -24,6 +24,7 @@ console.log('A little about me:', me); // console log the items placed in the ob
     created above to set its value.
   - Console.log fullName
 */
+// Create a variable that uses the firstName and lastName properties from me array
 let fullName = me.firstName + ' ' + me.lastName;
 console.log('My full name is:', fullName);
 
@@ -43,7 +44,7 @@ console.log('My last favroite food is:', me.favThreeFoods[me.favThreeFoods.lengt
 */
 console.log('My shoe count is:', me.shoeCount);
 
-me.shoeCount = me.shoeCount += 1;
+me.shoeCount++; // increment by 1 on my shoeCount
 console.log('Just bought a new pair. New shoe count is:', me.shoeCount);
 
 /* 5. Add a new property to an existing object.
@@ -52,6 +53,6 @@ console.log('Just bought a new pair. New shoe count is:', me.shoeCount);
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
-me.favoriteColor = 'Blue';
+me.favoriteColor = 'Blue'; // changes my favoriteColor in the me object
 console.log('My favorite color is:', me.favoriteColor);
 console.log(me); // console log object
