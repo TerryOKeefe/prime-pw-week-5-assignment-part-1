@@ -56,3 +56,4 @@ console.log('Just bought a new pair. New shoe count is:', me.shoeCount);
 me.favoriteColor = 'Blue'; // changes my favoriteColor in the me object
 console.log('My favorite color is:', me.favoriteColor);
 console.log(me); // console log object
+// done with assignment 
